@@ -15,9 +15,62 @@
       "category": "",
       "isAdmin": false,
       "id": 2
+    },
+    {
+      "email": "t@t.com",
+      "fullName": "Tiffany Smith",
+      "alias": "Tumbleweed Smith",
+      "category": "",
+      "isAdmin": false,
+      "id": 3
+    },
+    {
+      "email": "s@s.com",
+      "fullName": "Seth Lewis",
+      "alias": "Sly Eye Lewis",
+      "category": "",
+      "isAdmin": false,
+      "id": 4
+    },
+    {
+      "email": "j@j.com",
+      "fullName": "Joe Shepherd",
+      "alias": "Six Gun Joe",
+      "category": "",
+      "isAdmin": false,
+      "id": 5
     }
   ],
-  "guns": [],
+  "guns": [
+    {
+      "id": 1,
+      "shooterId": 1,
+      "typeId": 1,
+      "name": "Longhunter",
+      "description": "Uberti made and Stoeger imported Winchester 1873, .357 magnum, factory competition rifle, no modifications."
+    },
+    {
+      "id": 2,
+      "shooterId": 1,
+      "typeId": 2,
+      "name": "Big Bertha",
+      "description": "Stoeger double trigger side by side, 12 gauge, barrels slicked up, lighter triggers, and autoejector filed down."
+    },
+    {
+      "id": 3,
+      "shooterId": 1,
+      "typeId": 3,
+      "name": "Lefty",
+      "description": "Cimmaron firearms single action army, Pre-war colt replica with 3.5 in barrel, .357 magnum."
+    },
+    {
+      "id": 4,
+      "shooterId": 1,
+      "typeId": 3,
+      "name": "Righty",
+      "description": "Cimmaron firearms single action army, Pre-war colt replica with 3.5 in barrel, .357 magnum."
+    }
+  ],
   "matches": [
     {
       "id": 1,
@@ -32,10 +85,16 @@
       "date": "Fri Jun 31 2022 14:02:20 GMT-0500 (Central Daylight Time)"
     },
     {
-      "id": 3,
-      "name": "Wild Bunch Match",
-      "image": "https://www.ontargetmagazine.com/wp-content/uploads/2020/06/Cimarron-WB-Lead.jpg",
-      "date": "Fri Jul 30 2022 14:02:20 GMT-0500 (Central Daylight Time)"
+      "name": "5th Saturday Match",
+      "date": "2022-07-30",
+      "image": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/funny-cowboy-cat-alexey-konovalenko.jpg",
+      "id": 3
+    },
+    {
+      "name": "State Championship",
+      "date": "2022-10-15",
+      "image": "https://arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/T7THCNEBUZEMPJ3EIS4LIA2MJM.jpg",
+      "id": 4
     }
   ],
   "stages": [
@@ -98,6 +157,48 @@
       "name": "The Bella Union",
       "matchId": 2,
       "notes": ""
+    },
+    {
+      "name": "The Gem",
+      "notes": "Nevada sweep of both pistol and rifle targets, three targets, ten round each for pistols and rifle, 4 knockdown shotgun targets.",
+      "matchId": 3,
+      "id": 11
+    },
+    {
+      "name": "Miner's Supply",
+      "notes": "Consecutive Sweep for pistol and rifle targets, three knockdowns and a bird for shotgun",
+      "matchId": 3,
+      "id": 12
+    },
+    {
+      "name": "The Cabin",
+      "notes": "Three shotgun knockdowns, reload rifle on clock",
+      "matchId": 4,
+      "id": 13
+    },
+    {
+      "name": "Saloon",
+      "notes": "Knock down all bottles with pistols",
+      "matchId": 4,
+      "id": 14
+    },
+    {
+      "name": "Brothel",
+      "notes": "Swinging rifle target",
+      "matchId": 4,
+      "id": 15
+    },
+    {
+      "name": "Train Station",
+      "notes": "Start shooting when train whistles",
+      "matchId": 4,
+      "id": 16
+    },
+    {
+      "name": "Barber",
+      "notes": "Sanitize your razors",
+      "matchId": 4,
+      "id": 17
     }
   ],
   "completedMatches": [
@@ -115,6 +216,16 @@
       "matchId": 2,
       "shooterId": 2,
       "id": 3
+    },
+    {
+      "matchId": 1,
+      "shooterId": 5,
+      "id": 4
+    },
+    {
+      "matchId": 3,
+      "shooterId": 1,
+      "id": 5
     }
   ],
   "stats": [
@@ -260,9 +371,113 @@
       "modifiedTime": 53.09,
       "notes": "Need to work on hitting birds with the shotgun.",
       "id": 11
+    },
+    {
+      "shooterId": 5,
+      "matchId": 1,
+      "stageId": 1,
+      "pistolMisses": 0,
+      "rifleMisses": 0,
+      "shotgunMisses": 0,
+      "procedural": false,
+      "rawTime": 30,
+      "modifiedTime": 30,
+      "notes": "",
+      "id": 12
+    },
+    {
+      "shooterId": 5,
+      "matchId": 1,
+      "stageId": 2,
+      "pistolMisses": 0,
+      "rifleMisses": 0,
+      "shotgunMisses": 0,
+      "procedural": false,
+      "rawTime": 3,
+      "modifiedTime": 3,
+      "notes": "",
+      "id": 13
+    },
+    {
+      "shooterId": 5,
+      "matchId": 1,
+      "stageId": 3,
+      "pistolMisses": 0,
+      "rifleMisses": 0,
+      "shotgunMisses": 0,
+      "procedural": false,
+      "rawTime": 0,
+      "modifiedTime": 0,
+      "notes": "",
+      "id": 14
+    },
+    {
+      "shooterId": 5,
+      "matchId": 1,
+      "stageId": 4,
+      "pistolMisses": 0,
+      "rifleMisses": 0,
+      "shotgunMisses": 0,
+      "procedural": false,
+      "rawTime": 0,
+      "modifiedTime": 0,
+      "notes": "",
+      "id": 15
+    },
+    {
+      "shooterId": 5,
+      "matchId": 1,
+      "stageId": 5,
+      "pistolMisses": 0,
+      "rifleMisses": 0,
+      "shotgunMisses": 0,
+      "procedural": false,
+      "rawTime": 0,
+      "modifiedTime": 0,
+      "notes": "",
+      "id": 16
+    },
+    {
+      "shooterId": 1,
+      "matchId": 3,
+      "stageId": 11,
+      "pistolMisses": 1,
+      "rifleMisses": 2,
+      "shotgunMisses": null,
+      "procedural": false,
+      "rawTime": 34.54,
+      "modifiedTime": 49.54,
+      "notes": "Slow down with rifle",
+      "id": 19
+    },
+    {
+      "shooterId": 1,
+      "matchId": 3,
+      "stageId": 12,
+      "pistolMisses": 0,
+      "rifleMisses": 0,
+      "shotgunMisses": 0,
+      "procedural": false,
+      "rawTime": 36.28,
+      "modifiedTime": 36.28,
+      "notes": "Great stage",
+      "id": 20
     }
   ],
-  "types": [],
+  "types": [
+    {
+      "id": 1,
+      "name": "Rifle"
+    },
+    {
+      "id": 2,
+      "name": "Shotgun"
+    },
+    {
+      "id": 3,
+      "name": "Pistol"
+    }
+  ],
   "statGuns": [],
   "clubs": []
 }
