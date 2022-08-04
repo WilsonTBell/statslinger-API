@@ -5,14 +5,12 @@
       "email": "wilson@wilson.com",
       "fullName": "Wilson Bell",
       "alias": "Briarwood Bell",
-      "category": "",
       "isAdmin": true
     },
     {
       "email": "crate@turdwrassler.net",
       "fullName": "Christian Suriano",
       "alias": "Fastest Crate in the West",
-      "category": "",
       "isAdmin": false,
       "id": 2
     },
@@ -20,7 +18,6 @@
       "email": "t@t.com",
       "fullName": "Tiffany Smith",
       "alias": "Tumbleweed Smith",
-      "category": "",
       "isAdmin": false,
       "id": 3
     },
@@ -28,17 +25,15 @@
       "email": "s@s.com",
       "fullName": "Seth Lewis",
       "alias": "Sly Eye Lewis",
-      "category": "",
       "isAdmin": false,
       "id": 4
     },
     {
-      "email": "j@j.com",
+      "id": 5,
       "fullName": "Joe Shepherd",
+      "email": "j@j.com",
       "alias": "Six Gun Joe",
-      "category": "",
-      "isAdmin": false,
-      "id": 5
+      "isAdmin": true
     }
   ],
   "guns": [
@@ -76,13 +71,13 @@
       "id": 1,
       "name": "Rootin Tootin Shootin",
       "image": "https://media.istockphoto.com/vectors/two-crossed-pistols-isolate-on-a-white-background-vector-graphics-vector-id1217356326?k=20&m=1217356326&s=612x612&w=0&h=BWLCp3uZh9owh6HIZbPPIucYI6N7Y-u0qXBM2ycb4ro=",
-      "date": "Fri Apr 29 2022 14:02:20 GMT-0500 (Central Daylight Time)"
+      "date": "2022-04-29"
     },
     {
       "id": 2,
       "name": "Normal Monthly",
       "image": "https://i.pinimg.com/736x/01/b0/4b/01b04b7cebe1427462f6a6c3efc5f848--skeleton-art-skeleton-cowboy.jpg",
-      "date": "Fri Jun 31 2022 14:02:20 GMT-0500 (Central Daylight Time)"
+      "date": "2022-07-26"
     },
     {
       "name": "5th Saturday Match",
